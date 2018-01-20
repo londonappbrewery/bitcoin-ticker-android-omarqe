@@ -43,6 +43,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/base"
+            android:textColor="#FFFFFF"
             android:textSize="30sp"
             android:textStyle="bold"
             android:id="@+id/textView"
@@ -51,13 +52,12 @@
             android:layout_marginRight="10dp"/>
 
         <Spinner
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/currency_spinner"
-            android:gravity="center_horizontal"
-            android:spinnerMode="dropdown"
+            android:layout_width="wrap_content"
+            android:layout_height="73dp"
             android:dropDownSelector="@color/fontColour"
-            />
+            android:gravity="center_horizontal"
+            android:spinnerMode="dropdown" />
 
 
     </LinearLayout>
